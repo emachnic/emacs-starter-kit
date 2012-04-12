@@ -1,0 +1,41 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/emachnic/.emacs.d/elpa/" . "starter-kit-ruby-2.0.3/")
+ ("/Users/emachnic/" . "RubyLearning/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/emachnic/RubyLearning/"
+ "/Users/emachnic/.emacs.d/"
+ "/Users/emachnic/.emacs.d/elpa/starter-kit-ruby-2.0.3/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "frontend.rb"
+ ".rvmrc"
+ "starter-kit.el"
+ "starter-kit-misc.el"
+ "init.el"
+ "starter-kit-ruby.el"
+ "starter-kit-defuns.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/emachnic/" (20358 21301) "Work/" "VirtualBox VMs/" "RubyLearning/" "Public/" "Play/" "Pictures/" "Music/" "Movies/" "logfile" "Library/" "irclogs/" "Dropbox/" "Downloads/" "dotfiles/" "Documents/" "Desktop/" "bin/" "battery" "Applications/" "Adobe Premiere Pro CS5.5 Family/" "Adobe After Effects CS5.5/" ".zshrc.pre-oh-my-zsh" ".zshrc" ".zshenv-e" ".zshenv" ".zsh_history" ".zsh-update" ".zsh/" ".zlogin" ".zcompdump" ".working_man.yml" ".vimrc" ".viminfo" ".vim/" ".vagrant.d/" ".Trash/" ".tmuxinator/" ".tmux.conf" ".ssh/" ".samurai/" ".rvm/" ".roninrc" ".recentf" ".README.md" ".rbx/" ".psql_history" ".pow/" ".pgpass" ".oh-my-zsh/" ".mysql_history" ".irssi/" ".irb_history" ".irb-history" ".imagineer_log.txt" ".ido.last" ".gvimrc" ".gitconfig" ".gemrc" ".gem/" ".eyrc" ".emacs.d/" ".DS_Store" ".dropbox/" ".cups/" ".cpan/" ".CFUserTextEncoding" ".bashrc-e" ".bashrc" ".bash_profile-e" ".bash_profile" ".bash_history" ".aliases" ".adobe/" "../" "./")
+
+ ("/Users/emachnic/RubyLearning/" (20358 21117) "jrubybuttons.rb" "jruby03.rb" "jruby01a.rb" "jruby01.rb" "frontend.rb~" "frontend.rb" ".rvmrc" "#frontend.rb#" "../" "./")
+
+ ("/Users/emachnic/.emacs.d/" (20358 19937) "vendor/" "url/" "tar.sh" "starter-kit.el" "starter-kit-pkg.el" "starter-kit-misc.el" "starter-kit-defuns.el" "README.markdown" "places" "modules/" "init.el" "emachnic.el" "elpa/" "COPYING" "changelog.md" "backups/" "auto-save-list/" ".smex-items" ".gitignore" ".git/" ".#starter-kit-defuns.el" "#starter-kit-defuns.el#" "../" "./")
+
+ ("/Users/emachnic/.emacs.d/elpa/starter-kit-ruby-2.0.3/" (20358 19992) "starter-kit-ruby.el" "starter-kit-ruby-pkg.elc" "starter-kit-ruby-pkg.el" "starter-kit-ruby-autoloads.el" "../" "./")
+
+ ("/Users/emachnic/.emacs.d/elpa/" (20357 64345) "starter-kit-ruby-2.0.3/" "starter-kit-lisp-2.0.3/" "starter-kit-js-2.0.1/" "starter-kit-2.0.3/" "smex-1.1.2/" "paredit-22/" "magit-1.1.1/" "inf-ruby-2.2.3/" "ido-ubiquitous-1.0/" "idle-highlight-mode-1.1.2/" "find-file-in-project-3.0/" "elisp-slime-nav-0.2/" "archives/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

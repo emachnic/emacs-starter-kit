@@ -1,0 +1,12 @@
+cd ..
+cd .emacs.d/
+ls
+cd ..
+ls
+cd dotfiles/emacs-starter-kit/
+ls
+cd ..
+cd emacs-starter-kit/
+git status
+cd ..
+git status

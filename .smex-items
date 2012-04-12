@@ -1,0 +1,21 @@
+
+;; ----- smex-history -----
+(
+ eshell
+ inf-ruby
+ package-install
+ recover-this-file
+ fundamental-mode
+ org-freemind-from-org-mode-node
+ cd
+)
+
+;; ----- smex-data -----
+(
+ (org-freemind-from-org-mode-node . 1)
+ (fundamental-mode . 2)
+ (package-install . 4)
+ (recover-this-file . 1)
+ (inf-ruby . 5)
+ (eshell . 1)
+)

@@ -1,0 +1,50 @@
+require 'java'
+
+classes = ['Frame', 'Label', 'Panel', 'TextField', 'PasswordField', 'Button']
+
+classes.each do |klass|
+  import "javax.swing.J#{klass}"
+end
+
+class Frontend < JFrame
+
+  def initialize title
+    super title
+
+    login_panel = JPanel.new
+    login_label = JLabel.new('Login', JLabel::LEFT)
+    login_field = JTextField.new(30)
+    login_panel.add login_label
+    login_panel.add login_field
+    
+    pass_panel = JPanel.new
+    pass_panel.add JLabel.new('Password')
+    pass_panel.add JPasswordField.new(30)
+    
+    message_panel = JPanel.new
+    message_panel.add JLabel.new('Message')
+    message_field = JTextField.new(30)
+    message_field.set_editable false
+    message_panel.add message_field
+    
+    button_panel = JPanel.new
+    button_panel.add JButton.new('Submit')
+    button_panel.add JButton.new('Refresh')
+
+    main_panel = JPanel.new
+    main_panel.add JLabel.new('Assignment 1')
+    main_panel.add login_panel
+    main_panel.add pass_panel
+    main_panel.add message_panel
+    main_panel.add button_panel
+    main_panel.set_size 480, 240
+
+    add main_panel
+    set_default_close_operation EXIT_ON_CLOSE
+    set_location_relative_to nil
+    set_size 500, 250
+    set_visible true
+  end
+end
+
+Frontend.new 'Assignment 1'
